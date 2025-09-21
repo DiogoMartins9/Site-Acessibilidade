@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Acessibilidade</title>
+</head>
+<body>
+    <div class="acessibilidade">
+
+        <button id="libras"><img src="resources/libras.png" class=icone title="Ferramenta Libras" width="40px" height="40px"></button>
+        <button id="aumentar-texto"><img src="resources/a_mais.png" class=icone title="Ferramenta aumentar texto" width="40px" height="40px"></button>
+        <button id="diminuir-texto" ><img src="resources/a_menos.png" class=icone title="Ferramenta diminuir texto" width="40px" height="40px"></button>
+        <button id="alternar-contraste"><img src="resources/alto_contraste.png" class=icone title="Ferramenta alto contraste" width="40px" height="40px"></button>
+        <button id="preto-e-branco"><img src="resources/preto_e_branco.png" class=icone title="Ferramenta preto e branco" width="40px" height="40px"></button>
+        <button id="comando-de-voz"><img src="resources/voz.png" class=icone title="Ferramenta comando de voz" width="40px" height="40px"></button>
+
+    </div>
+
+    <div class="titulo">
+        <h1>Testando Ferramentas ACD</h1>
+    </div>
+
+    <div class="text">
+        <p>Testando o link <a href="https://ge.globo.com/" target="_blank">clique aqui</a></p>
+
+    </div>
+
+    <div class="Imagem">
+        <img src="resources/Acessibilidade.png" alt="Imagem de teste">
+    </div>
+    
+    <!--PLUGIN V LIBRA-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper">
+        </div>
+    </div>
+</div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="scripts.js"></script>
+</body>

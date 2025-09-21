@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+button {
+    width: 70px;
+    height: 50px;
+}
+
+.titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.acessibilidade {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+body {
+    margin-top: 90px;
+    background-color: white; /*cor original*/
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagem {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: blue; /*cor original do link*/
+}
+
+a:hover {
+    color:rgb(0, 162, 255);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: purple;
+}
+
+.alto-contraste {
+    background-color: black; /*cor em alto contraste*/
+    color: white;
+}
+
+.alto-contraste a {
+    color: yellow; /* Exemplo de cor de link em alto contraste */
+}
+
+.alto-contraste a:hover {
+    color: orange; 
+}
+
+.alto-contraste a:visited {
+    color: red;
+}
+
+.icone {
+    height: 30px;
+    width: 30px;
+}
+
+.preto-e-branco {
+    filter: grayscale(100%);
+}
